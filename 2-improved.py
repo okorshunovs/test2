@@ -1,5 +1,8 @@
-first_num = 2  # removed semicolon
-second_num = 3  # removed semicolon + typo
-sum = first_num + second_num  # removed semicolon + typo
-print(sum)  # removed semicolon
+first_num = 2
+second_num = 3
 
+def add(x, y):
+    print(x + y)
+
+
+add(first_num, second_num)
